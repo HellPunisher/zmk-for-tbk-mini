@@ -79,10 +79,10 @@
         hotkey_layer {
             label = "HOTKEY";
             bindings = <
-&none  &macro_email_q  &macro_phone  &macro_pass    &none   &none   &none   &none   &none  &none  &none  &none
-&none  &macro_email_g  &none         &macro_pass_2  &none   &none   &none   &none   &none  &none  &none  &none
-&none  &none           &none         &none          &none   &none   &none   &none   &none  &none  &none  &none
-                                     &trans         &trans  &trans  &trans  &trans
+&none  &trans  &trans  &trans   &none   &none   &none   &none   &none  &none  &none  &none
+&none  &trans  &none   &trans   &none   &none   &none   &none   &none  &none  &none  &none
+&none  &none   &none   &none    &none   &none   &none   &none   &none  &none  &none  &none
+                    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
